@@ -1,0 +1,83 @@
+._dropship_location .p_mw_ds_location {
+    height: 100px !important;
+}
+
+.dropdown-check-list {
+    display: inline-block;
+}
+
+.dropdown-check-list .anchor {
+    position: relative;
+    cursor: pointer;
+    display: inline-block;
+    padding: 5px 50px 5px 10px;
+    border: 1px solid #ccc;
+}
+
+.dropdown-check-list .anchor:after {
+    position: absolute;
+    content: "";
+    border-left: 2px solid black;
+    border-top: 2px solid black;
+    padding: 5px;
+    right: 10px;
+    top: 20%;
+    -moz-transform: rotate(-135deg);
+    -ms-transform: rotate(-135deg);
+    -o-transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+    transform: rotate(-135deg);
+}
+
+.dropdown-check-list .anchor:active:after {
+    right: 8px;
+    top: 21%;
+}
+
+.dropdown-check-list ul.items {
+    padding: 2px;
+    display: none;
+    margin: 0;
+    border: 1px solid #ccc;
+    border-top: none;
+    width: 48%
+}
+
+.dropdown-check-list ul.items li {
+    list-style: none;
+    border-bottom-style: dotted;
+    border-bottom-color: #ccc;
+    border-bottom-width: 1px;
+    padding-bottom: 7px;
+}
+
+.dropdown-check-list.visible .anchor {
+    color: #0094ff;
+    width: 40%
+}
+
+.dropdown-check-list.visible .items {
+    display: block;
+}
+
+.en-dropship-label {
+    float: left;
+    width: 17.5%;
+}
+
+div.en-dropship-list {
+    margin: 0 0 0 163px;
+}
+
+.woocommerce_variable_attributes div.en-dropship-list {
+    margin: 0px;
+}
+
+.woocommerce_variable_attributes .dropdown-check-list ul.items {
+    width: 46.8%;
+    margin: 0 0 0 112px;
+}
+
+span.anchor {
+    width: 40%;
+}
